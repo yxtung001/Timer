@@ -1,0 +1,102 @@
+body{
+    background-image:url("pexels-pixabay-2150.jpg");
+    background-size: cover;
+    margin:24px;
+}
+h1 {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    margin:0;
+    color: rgb(253, 243, 196);
+    background-color: grey;
+    display:inline;
+    border-radius: 4rem;
+    padding: 10px;
+}
+
+p{
+    font-style: italic;
+    margin-top:20px;
+    margin-left: 10px;
+    
+}
+
+.Will{
+    width: 40rem;
+    position:absolute;
+    top:10px;
+    right:10px;
+    font-size: 2rem;
+    font-style: italic;
+    color:whitesmoke
+}
+.Have{
+    width: 40rem;
+    position:absolute;
+    bottom:100px;
+    left:100px;
+    font-size: 2rem;
+    font-style: italic;
+    color:whitesmoke
+}
+.middle{
+    position: absolute;
+    bottom:50%;
+    left:35%;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: bold;
+    color:whitesmoke
+
+}
+.left{
+    padding-left: 2rem;
+    margin: 1.3rem;
+}
+.instructions{
+    margin-left: 40%;
+    position: absolute;
+    top:16rem;
+}
+.timer{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    display: inline-block;
+    padding:24px 34px;
+    background:linear-gradient(to right,rgb(92, 92, 255),rgb(127, 210, 248));
+    border-radius:30px;
+    margin-left:40%;
+    margin-top: 10%;
+    height: 5rem;
+}
+
+.timer_part{
+    font-size:4rem;
+    font-weight: bold;
+    margin-left:10px
+}
+.timer_btn{
+    width:5rem;
+    height:5rem;
+    border-radius:50%;
+    border:none;
+    color:rgb(248, 247, 247);
+    background: linear-gradient(to bottom,rgb(129, 129, 253),aqua);
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+    position:relative;
+    bottom:15px;
+    
+    
+}
+
+.timer_btn-start{
+    background:linear-gradient(to bottom,rgb(156, 31, 156),pink);
+}
+
+.timer_btn-stop{
+    background: linear-gradient(to bottom,red,purple);
+}
+
+
